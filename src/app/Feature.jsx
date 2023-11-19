@@ -16,7 +16,7 @@ export default function FeatureSection() {
         </div>
       </div>
       <div className="flex-shrink-0 mx-32" style={{ height: 600, width: 600 }}>
-        <Image className="w-full h-full" />
+        <Image alt="feature" className="w-full h-full" />
       </div>
     </div>
   );

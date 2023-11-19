@@ -4,7 +4,7 @@ export default function InformationSection() {
   return (
     <div className="flex justify-center items-center p-8" style={{ height: 800 }}>
       <div className="flex-shrink-0 mx-32" style={{ height: 600, width: 600 }}>
-        <Image className="w-full h-full" />
+        <Image alt='info' className="w-full h-full" />
       </div>
       <div className="mx-32">
         <h2 className="text-white text-lg font-semibold uppercase tracking-wide">Realistically</h2>
@@ -12,7 +12,7 @@ export default function InformationSection() {
           Blending Reality with 3D
         </h2>
         <p className="mb-6">
-          Bridging Reality with 3D Precision: We meticulously align real-world GPS data with your project's 3D model, ensuring every virtual rendering accurately reflects its actual location and dimensions. This precise integration offers a true-to-life visual experience of your project, even before construction commences.
+          Bridging Reality with 3D Precision: We meticulously align real-world GPS data with your project&apos;s 3D model, ensuring every virtual rendering accurately reflects its actual location and dimensions. This precise integration offers a true-to-life visual experience of your project, even before construction commences.
         </p>
         <ul className="list-none space-y-4">
           <li className="flex items-start">
@@ -25,7 +25,7 @@ export default function InformationSection() {
           </li>
           <li className="flex items-start">
             <span className="mr-2">•</span>
-            <span>Unlock the potential of real estate with Senfu's innovative technology.</span>
+            <span>Unlock the potential of real estate with Senfu&apos;s innovative technology.</span>
           </li>
         </ul>
         <div className="space-x-4 mt-10">
