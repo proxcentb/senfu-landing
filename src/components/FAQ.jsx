@@ -25,7 +25,7 @@ export default function FaqSection() {
           traditional photography and 3D modeling alone cannot achieve.
         </Accordion>
         <Accordion question='How long does it take to complete a project?'>
-          The timeline varies depending on the project's complexity and scope. Generally, a standard project 
+          The timeline varies depending on the project&apos;s complexity and scope. Generally, a standard project 
           involving 16 spherical panoramas can be completed within a few days after the drone shoot. We work 
           closely with clients to meet their schedules and provide timely deliverables.
         </Accordion>
