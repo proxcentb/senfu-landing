@@ -17,6 +17,9 @@ module.exports = {
         'c3': '#F3F4F6',
         'c4': '#E5E7EB',
       },
+      height: {
+        '80vh': '80vh',
+      }
     },
   },
   plugins: [],
