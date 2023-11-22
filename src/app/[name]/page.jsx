@@ -11,9 +11,9 @@ export default function Project({ params }) {
   }
 
   return (
-    <div className='flex flex-col justify-center items-center'>
-      <span className='mt-16 sm:mt-6 font-bold'>{projectsMap[params.name]}</span>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10 px-2 md:px-5 lg:px-10 xl:px-20 2xl:px-40 w-full">
+    <div className='mt-16 flex flex-col justify-center items-center'>
+      <span className='font-bold'>{projectsMap[params.name]}</span>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10 px-2 md:px-5 lg:px-10 xl:px-40 2xl:px-60 w-full">
         <div className='w-full h-96 bg-white' />
         <div className='w-full h-96 bg-white' />
         <div className='w-full h-96 bg-white' />

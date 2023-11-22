@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header[data-scrolled='true'] {
+  @apply bg-c2;
+  @apply shadow-xl;
+}
