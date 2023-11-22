@@ -33,6 +33,10 @@ export default function ContactPopup() {
       await fetch('https://formsubmit.co/ajax/ea2686d2e535145ba6644b94f777b485', {
         method: 'POST',
         body: JSON.stringify(formData),
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
       });
       setPopup('done');
     }
