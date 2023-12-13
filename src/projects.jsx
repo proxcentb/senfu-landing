@@ -1,4 +1,4 @@
-export default {
+const data = {
   'arvoll': {
     title: 'Årvoll Torg, Oslo',
     preview: '/arvoll.jpg',
@@ -89,3 +89,5 @@ export default {
     ],
   },
 }
+
+export default data;

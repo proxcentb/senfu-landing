@@ -1,4 +1,5 @@
 import projectsMap from '@/projects.jsx';
+import Image from 'next/image';
 
 export default function PortfolioSection() {
   return (
@@ -8,7 +9,7 @@ export default function PortfolioSection() {
       <div className="flex flex-row overflow-auto w-full md:grid gap-4 md:grid-cols-2 mt-5">
         {Object.entries(projectsMap).map(([ path, project ]) => (
           <a key={path} className="border" href={path}>
-            <img className="w-full h-52 bg-gray-300 object-cover min-w-270" src={project.preview} />
+            <Image alt='preview' className="w-full h-52 bg-gray-300 object-cover min-w-270" src={project.preview} />
             <h3 className="p-2 text-lg font-semi-bold">{project.title}</h3>
           </a>
         ))}
