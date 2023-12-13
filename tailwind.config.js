@@ -14,6 +14,9 @@ module.exports = {
       },
       height: {
         '80vh': '80vh',
+      },
+      minWidth: {
+        '270': '270px',
       }
     },
   },

@@ -6,3 +6,15 @@ header[data-scrolled='true'] {
   @apply bg-c2;
   @apply shadow-xl;
 }
+
+.pnlm-container {
+  transition: 2000ms;
+}
+
+.pnlm-ui {
+  display: none;
+}
+
+.pnlm-load-box {
+  display: none;
+}

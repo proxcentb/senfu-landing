@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '../../public/logo.svg';
+import feature1 from '../../public/feature-1.png';
 import ContactButton from "@/components/ContactButton";
 
 export default function FeatureSection() {
@@ -15,7 +15,7 @@ export default function FeatureSection() {
           <ContactButton />
         </div>
       </div>
-      <Image alt="logo" src={logo} className="h-full self-center hidden md:block m-auto mt-6" />
+      <Image alt="feature-1" src={feature1} className="h-full self-center hidden md:block m-auto mt-6 p-8" />
     </div>
   );
 }

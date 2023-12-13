@@ -1,11 +1,11 @@
 import Image from "next/image";
-import logo from '../../public/logo.svg';
+import feature2 from '../../public/feature-2.png';
 import ContactButton from "@/components/ContactButton";
 
 export default function InformationSection() {
   return (
     <div className="px-2 md:px-10 lg:px-20 xl:px-40 2xl:px-80 grid grid-cols-1 md:grid-cols-2">
-      <Image alt='logo' src={logo} className="h-full self-center hidden md:block m-auto mt-6" />
+      <Image alt='feature-2' src={feature2} className="h-full self-center hidden md:block m-auto mt-6 p-8" />
       <div className="self-center">
         <h2 className="text-white text-lg font-semibold uppercase">Realistically</h2>
         <h2 className="text-4xl font-bold text-white mb-4">
