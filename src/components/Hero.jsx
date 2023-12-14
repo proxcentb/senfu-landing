@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   return (
     <div className="px-2 md:px-10 lg:px-20 xl:px-40 2xl:px-80 w-full justify-center flex flex-col h-80vh relative">
-      <div className="absolute w-full h-full top-0 left-0 bg-no-repeat bg-cover bg-left -z-10" style={{ backgroundImage: `url('./hero.png')` }} />
+      <div className="absolute w-full h-full top-0 left-0 bg-no-repeat bg-cover bg-left -z-10" style={{ backgroundImage: `url('./hero.webp')` }} />
       <ReactPannellum
         ref={ref}
         id="1"

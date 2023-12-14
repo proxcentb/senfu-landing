@@ -1,5 +1,5 @@
 import Image from "next/image";
-import feature1 from '../../public/feature-1.png';
+import feature1 from '../../public/feature-1.webp';
 import ContactButton from "@/components/ContactButton";
 
 export default function FeatureSection() {
